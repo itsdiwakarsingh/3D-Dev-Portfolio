@@ -1,5 +1,10 @@
+import HeroText from "../components/HeroText";
 const Hero = () => {
-  return <section className="flex"></section>
+  return (
+    <section className="flex itmes-start justify-center md:items-start md:justify-start min-h-screen overflow-hidden c-space">
+      <HeroText />
+    </section>
+  );
 };
 
 export default Hero;
