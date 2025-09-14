@@ -45,6 +45,26 @@ const About = () => {
               style={{ rotate: "20deg", top: "10%", left: "38%" }}
               text="SRP"
             />
+            <Card
+              style={{ rotate: "30deg", top: "70%", left: "70%" }}
+              image="assets/logos/csharp-pink.png"
+            />
+            <Card
+              style={{ rotate: "-45deg", top: "70%", left: "10%" }}
+              image="assets/logos/blazor-pink.png"
+            />
+            <Card
+              style={{ rotate: "-45deg", top: "70%", left: "70%" }}
+              image="assets/logos/dotnet-pink.png"
+            />
+            <Card
+              style={{ rotate: "30deg", top: "70%", left: "70%" }}
+              image="assets/logos/csharp-pink.png"
+            />
+            <Card
+              style={{ rotate: "30deg", top: "70%", left: "70%" }}
+              image="assets/logos/csharp-pink.png"
+            />
           </div>
         </div>
         <div className="grid-black-color grid-3"></div>
