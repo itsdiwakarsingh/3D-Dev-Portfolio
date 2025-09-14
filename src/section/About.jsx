@@ -2,6 +2,7 @@ import { useRef } from "react";
 import Card from "../components/Card";
 import { Globe } from "../components/globe";
 import CopyEmailButton from "../components/CopyEmailButton";
+import Frameworks from "../components/Frameworks";
 
 const About = () => {
   const grid2Container = useRef();
@@ -93,7 +94,11 @@ const About = () => {
             <CopyEmailButton />
           </div>
         </div>
-        <div className="grid-default-color grid-5"></div>
+        <div className="grid-default-color grid-5">
+          <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
+            <Frameworks />
+          </div>
+        </div>
       </div>
     </section>
   );
