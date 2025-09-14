@@ -1,8 +1,8 @@
 import { useRef } from "react";
-import Card from "../components/Card.jsx";
-import { Globe } from "../components/globe.jsx";
-import CopyEmailButton from "../components/CopyEmailButton.jsx";
-import { Frameworks } from "../components/FrameWorks.jsx";
+import Card from "../components/Card";
+import { Globe } from "../components/globe";
+import CopyEmailButton from "../components/CopyEmailButton";
+import { Frameworks } from "../components/FrameWorks";
 
 const About = () => {
   const grid2Container = useRef();
@@ -18,13 +18,12 @@ const About = () => {
           <div className="z-10">
             <p className="headtext">Hi, I'm Diwakar Singh</p>
             <p className="subtext">
-              Over the last 4 years, I developed my frontend and backend dev
+              Over the last 2 years, I developed my frontend and backend dev
               skills to deliver dynamic and software and web applications.
             </p>
           </div>
-          <div className="absolute inset-x-0 pointer-events-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
+          <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
         </div>
-
         <div className="grid-default-color grid-2">
           <div
             ref={grid2Container}
@@ -65,12 +64,12 @@ const About = () => {
             />
             <Card
               style={{ rotate: "-45deg", top: "70%", left: "25%" }}
-              image="assets/logos/blazor-pink.png"
+              image="assets/logos/dotnet-pink.png"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "-45deg", top: "5%", left: "10%" }}
-              image="assets/logos/dotnet-pink.png"
+              image="assets/logos/blazor-pink.png"
               containerRef={grid2Container}
             />
           </div>
