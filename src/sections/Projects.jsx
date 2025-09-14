@@ -1,4 +1,4 @@
-import { myProjects } from "../constants";
+import { myProjects } from "../constants/index.js";
 const Projects = () => {
   return (
     <section className="realtive c-space section-spacing">

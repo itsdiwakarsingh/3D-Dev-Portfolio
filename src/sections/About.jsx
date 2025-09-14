@@ -1,8 +1,8 @@
 import { useRef } from "react";
-import Card from "../components/Card";
-import { Globe } from "../components/globe";
-import CopyEmailButton from "../components/CopyEmailButton";
-import { Frameworks } from "../components/FrameWorks";
+import Card from "../components/Card.jsx";
+import { Globe } from "../components/globe.jsx";
+import CopyEmailButton from "../components/CopyEmailButton.jsx";
+import { Frameworks } from "../components/FrameWorks.jsx";
 
 const About = () => {
   const grid2Container = useRef();
@@ -22,7 +22,7 @@ const About = () => {
               skills to deliver dynamic and software and web applications.
             </p>
           </div>
-          <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
+          <div className="absolute inset-x-0 pointer-events-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
         </div>
         <div className="grid-default-color grid-2">
           <div
