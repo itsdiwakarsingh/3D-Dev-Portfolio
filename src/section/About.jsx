@@ -22,7 +22,7 @@ const About = () => {
               skills to deliver dynamic and software and web applications.
             </p>
           </div>
-          <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
+          <div className="absolute inset-x-0 pointer-events-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
         </div>
 
         <div className="grid-default-color grid-2">
@@ -77,7 +77,7 @@ const About = () => {
         </div>
         <div className="grid-black-color grid-3">
           <div className="z-10 w-[50%]">
-            <p className="haedtext">Time Zone</p>
+            <p className="headtext">Time Zone</p>
             <p className="subtext">
               I'm based in India, and open to remote work worldwide.
             </p>
@@ -96,7 +96,7 @@ const About = () => {
         </div>
         <div className="grid-default-color grid-5">
           <div className="z-10 w-[50%]">
-            <p className="headText">Teck Stack</p>
+            <p className="headtext">Tech Stack</p>
             <p className="subtext">
               I specialize in a variety of languages, frameworks, and tools that
               allow me to build robust and scalable applications
