@@ -1,3 +1,5 @@
+import Card from "../components/Card";
+
 const About = () => {
   return (
     <section className="c-space section-spacing" id="about">
@@ -54,14 +56,6 @@ const About = () => {
             <Card
               style={{ rotate: "-45deg", top: "70%", left: "70%" }}
               image="assets/logos/dotnet-pink.png"
-            />
-            <Card
-              style={{ rotate: "30deg", top: "70%", left: "70%" }}
-              image="assets/logos/csharp-pink.png"
-            />
-            <Card
-              style={{ rotate: "30deg", top: "70%", left: "70%" }}
-              image="assets/logos/csharp-pink.png"
             />
           </div>
         </div>
