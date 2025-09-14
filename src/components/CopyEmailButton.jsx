@@ -1,11 +1,13 @@
 import { useState } from "react";
-import { AnimatePresence, easeInOut, motion } from "motion/react";
+import { AnimatePresence, motion } from "motion/react";
 const CopyEmailButton = () => {
   const [copied, setCopied] = useState(false);
   const email = "itdiwakarsingh02@gmail.com";
+
   const copyToClipboard = () => {
     navigator.clipboard.writeText(email);
     setCopied(true);
+
     setTimeout(() => {
       setCopied(false);
     }, 3000);
@@ -23,11 +25,11 @@ const CopyEmailButton = () => {
             className="flex items-center justify-center gap-2"
             key="copied"
             initial={{ opacity: 0, y: -10 }}
-            animation={{ opacity: 1, y: 0 }}
+            animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
-            transition={{ duration: 0.1, ease: easeInOut }}
+            transition={{ duration: 0.1, ease: "easeInOut" }}
           >
-            <img src="assets/copy-done.svg" className="w-5" alt="copy" />
+            <img src="assets/copy-done.svg" className="w-5" alt="copy Icon" />
             Email has Copied
           </motion.p>
         ) : (
@@ -35,7 +37,7 @@ const CopyEmailButton = () => {
             className="flex items-center justify-center gap-2"
             key="copy"
             initial={{ opacity: 0 }}
-            animation={{ opacity: 1 }}
+            animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.1 }}
           >
