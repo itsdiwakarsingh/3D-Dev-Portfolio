@@ -1,5 +1,3 @@
-import { rotate } from "maath/dist/declarations/src/buffer";
-
 const About = () => {
   return (
     <section className="c-space section-spacing" id="about">
