@@ -1,6 +1,3 @@
-import React from "react";
-import { sub } from "three/tsl";
-
 const ProjectDetails = ({
   title,
   description,
