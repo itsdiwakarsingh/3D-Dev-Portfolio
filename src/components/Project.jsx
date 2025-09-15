@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import ProjectDetails from "./ProjectDetails";
 
 const Projects = ({
@@ -9,6 +9,7 @@ const Projects = ({
   image,
   tags,
 }) => {
+  const [isHidden, setIsHidden] = useState(false);
   return (
     <>
       <div className="flex-wrap items-center justify-between space-y-14 sm:flex sm:space-y-0">
@@ -23,20 +24,26 @@ const Projects = ({
             <span>tag3</span>
           </div>
         </div>
-        <button className="flex items-center gap-1 cursor-pointer hover-animation">
+        <button
+          onClick={() => setIsHidden(true)}
+          className="flex items-center gap-1 cursor-pointer hover-animation"
+        >
           Read More
         </button>
         <img src="assets/arrow-right.svg" className="w-5" alt="" />
       </div>
       <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent h-[1px] w-full " />
-      <ProjectDetails
-        title={title}
-        description={description}
-        subDescription={subDescription}
-        image={image}
-        tag={tags}
-        herf={herf}
-      />
+      {isHidden && (
+        <ProjectDetails
+          title={title}
+          description={description}
+          subDescription={subDescription}
+          image={image}
+          tag={tags}
+          herf={herf}
+          closeModel={() => setIsHidden(false)}
+        />
+      )}
     </>
   );
 };
