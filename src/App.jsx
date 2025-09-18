@@ -15,6 +15,7 @@ const App = () => {
       <Experiences />
       <Testimonial />
       <Contact />
+      <Footer />
       <section className="min-h-screen" />
       <section className="min-h-screen" />
       <section className="min-h-screen" />
