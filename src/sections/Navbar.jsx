@@ -13,11 +13,11 @@ function Navigation() {
           About
         </a>
       </li>
-      <li className="nav-li">
+      {/* <li className="nav-li">
         <a href="#work" className="nav-link">
           Work
         </a>
-      </li>
+      </li> */}
       <li className="nav-li">
         <a href="#contact" className="nav-link">
           Contact
