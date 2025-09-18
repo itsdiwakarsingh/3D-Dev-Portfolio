@@ -7,7 +7,7 @@ import { Particles } from "../components/Particles";
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
-    eamil: "",
+    email: "",
     message: "",
   });
   const [isLoading, setIsLoading] = useState(false);
