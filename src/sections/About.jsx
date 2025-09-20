@@ -58,17 +58,17 @@ const About = () => {
             />
             <Card
               style={{ rotate: "30deg", top: "70%", left: "70%" }}
-              image="assets/logos/csharp-pink.png"
+              image="assets/logos/vitejs.svg"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "-45deg", top: "70%", left: "25%" }}
-              image="assets/logos/dotnet-pink.png"
+              image="assets/logos/stripe.svg"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "-45deg", top: "5%", left: "10%" }}
-              image="assets/logos/blazor-pink.png"
+              image="assets/logos/auth0.svg"
               containerRef={grid2Container}
             />
           </div>
@@ -77,7 +77,8 @@ const About = () => {
           <div className="z-10 w-[50%]">
             <p className="headtext">Time Zone</p>
             <p className="subtext">
-              I'm based in India, and open to remote work worldwide.
+              I'm based in <span className="text-white">India</span>, and open
+              to remote work worldwide.
             </p>
           </div>
           <figure className="absolute left-[30%] top-[10%]">

@@ -13,7 +13,7 @@ const Footer = () => {
           </a>
         ))}
       </div>
-      <p>© 2022 Made with lot of coffee and back pain ♥️ by Diwakar.</p>
+      <p>© 2025 Made with lot of coffee and back pain ♥️ by Diwakar.</p>
     </section>
   );
 };
