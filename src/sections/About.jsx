@@ -81,7 +81,7 @@ const About = () => {
               to remote work worldwide.
             </p>
           </div>
-          <figure className="absolute left-[30%] top-[10%]">
+          <figure className="absolute left-[35%] top-[5%]">
             <Globe />
           </figure>
         </div>

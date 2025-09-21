@@ -17,16 +17,16 @@ export function Frameworks() {
     "google-cloud-svgrepo-com",
     "tailwindcss",
     "vitejs",
-    "wordpress",
+    "spline",
   ];
   return (
     <div className="relative flex h-[15rem] w-full flex-col items-center justify-center">
-      <OrbitingCircles iconSize={40}>
+      <OrbitingCircles iconSize={38}>
         {skills.map((skill, index) => (
           <Icon key={index} src={`assets/logos/${skill}.svg`} />
         ))}
       </OrbitingCircles>
-      <OrbitingCircles iconSize={25} radius={100} reverse speed={2}>
+      <OrbitingCircles iconSize={23} radius={100} reverse speed={2}>
         {skills.reverse().map((skill, index) => (
           <Icon key={index} src={`assets/logos/${skill}.svg`} />
         ))}
