@@ -20,11 +20,9 @@ const GLOBE_CONFIG = {
   mapSamples: 16000,
   mapBrightness: 1.2,
   baseColor: [1, 1, 1],
-  markerColor: [1, 1, 1],
+  markerColor: [251 / 255, 100 / 255, 21 / 255],
   glowColor: [1, 1, 1],
-  markers: [
-    { location: [18.5337, 73.8667], size: 0.1 },
-  ],
+  markers: [{ location: [18.5337, 73.8667], size: 0.1 }],
 };
 
 export function Globe({ className, config = GLOBE_CONFIG }) {
