@@ -4,7 +4,7 @@ const Footer = () => {
     <section className="flex flex-wrap items-center justify-between gap-5 pb-3 text-sm text-neutral-400 c-space">
       <div className="mb-4 bg-gradient-to-r from-transparent via-neutral-700 to-transparent h-[1px] w-full" />
       <div className="flex gap-2">
-        <p>Dilbar</p>
+        <p>Diwakar</p>
       </div>
       <div className="flex gap-3">
         {mySocials.map((social, index) => (
@@ -13,7 +13,7 @@ const Footer = () => {
           </a>
         ))}
       </div>
-      <p>© 2025 Made with lot of coffee and back pain ♥️ by Diwakar.</p>
+      <p>© 2025 Made by Diwakar Singh.</p>
     </section>
   );
 };

@@ -15,6 +15,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
+      <Projects />
       <Contact />
       <Footer />
     </div>

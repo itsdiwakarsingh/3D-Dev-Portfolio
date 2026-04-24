@@ -13,11 +13,13 @@ function Navigation() {
           About
         </a>
       </li>
-      {/* <li className="nav-li">
-        <a href="#work" className="nav-link">
-          Work
-        </a>
-      </li> */}
+      {
+        <li className="nav-li">
+          <a href="#projects" className="nav-link">
+            Work
+          </a>
+        </li>
+      }
       <li className="nav-li">
         <a href="#contact" className="nav-link">
           Contact
@@ -36,7 +38,7 @@ const Navbar = () => {
             href="/"
             className="text-xl font-bold transition-colors text-neutral-400 hover:text-white"
           >
-            Dilbar
+            Diwakar
           </a>
           <button
             onClick={() => setIsOpen(!isOpen)}
